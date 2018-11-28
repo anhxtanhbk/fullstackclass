@@ -10,23 +10,28 @@ input:focus, input:active {
 
 body {
 	background: #48254a url(images/main-background.png);
+	/*background: radial-gradient(circle, #67456b, #2f0e32);*/
 	background-size: cover;
 	font-family: Roboto, san-serif;
 }
 
 #login-form {
 	background-color: #f2f2f2;
-	width: 400px;
-	margin: 125px auto;
-	border-radius: 1px;
+	width: 400px;	
+	border-radius: 2px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -150px;
 	border: 1px solid rgba(0, 0, 0, 0.7);
 }
 
-#title {
+#login-form #title {
 	background: #734e76 url(images/title.png) repeat center center;
 }
 
-#title h1 {
+#login-form #title h1 {
 	display: inline-block;
 	font-size: 14px;	
 	color: white;
@@ -35,14 +40,15 @@ body {
 	margin-left: 22px;
 }
 
-#title img {
+#login-form #title a {
 	float: right;
 	display: inline-block;
-	width: 11px;
-	height: 11px;
-	
-	margin-top: 25px;
-	margin-bottom: 22px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	transform: rotate(45deg);	
+	margin-top: 22px;
 	margin-right: 22px;
 }
 
@@ -86,12 +92,12 @@ body {
 	height: 40px;
 	font-size: 14px;
 	border: 1px solid rgba(0, 0, 0, 0.3);
-	border-radius: 5px;
+	border-radius: 3px;
 	color: white;
 	
 	margin-left: 22px;
 	margin-bottom: 35px;
-	background: #6b486e url(images/button.png);
+	background: #6b486e url(images/button.png) repeat-x;
 	background-size: cover;
 	/*text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);*/
