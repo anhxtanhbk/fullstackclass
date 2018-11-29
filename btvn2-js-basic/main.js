@@ -16,6 +16,7 @@ var outputObj = document.getElementById("output");
 outputObj.innerHTML = slider_val;
 childObj.style.marginLeft = (realMinVal + Math.round(slider_val/100*maxDistance))+"px";
 
+var slider = document.getElementById("slider");
 slider.oninput = function(){
 	var currentVal = this.value;
 	outputObj.innerHTML = currentVal;
@@ -24,4 +25,3 @@ slider.oninput = function(){
 	console.log("realDistance", realDistance);
 	childObj.style.marginLeft = realDistance+"px";
 }
-
