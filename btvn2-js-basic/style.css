@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: darkseagreen;
+	font-family: Roboto, Tahoma, san-serif;
+}
+
+#myHomework {
+	background-color: pink;
+}
+
+#myHomework div {
+	box-sizing: border-box;
+}
+
+#myHomework h1 {
+	color: saddlebrown;
+	margin-bottom: 50px;
+}
+
+#myHomework label {
+	color: indigo;
+	font-weight: bold;
+	margin: 10px;
+}
+
+#parent-block {
+	background-color: green;
+	width: 1000px;
+	height: 50px;
+	border-radius: 10px;
+	opacity: 0.5;
+	margin-bottom: 30px;
+}
+
+#child-block {
+	background-color: red;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+}
+
+.slidecontainer {
+    /*background-color: royalblue;*/
+}
+
+#slider {
+    -webkit-appearance: none; /* Override default CSS styles */
+    width: 30%;
+    height: 15px;
+    border-radius: 5px;
+    background: limegreen;
+    outline: none;
+    opacity: 0.7;
+    /*-webkit-transition: .2s;*/
+    transition: opacity .2s;
+    /*transform: rotate(-90deg);*/
+}
+
+#slider:hover {
+    opacity: 1;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: darkgreen;
+    cursor: pointer;
+}
+
+#slider::-moz-range-thumb {
+    width: 25px;
+    height: 50px;
+    border-radius: 50%;
+    background: darkgreen;
+    cursor: pointer;
+}
+
+.slidecontainer p{
+	font-size: 20px;
+	color: blue;
+}
+
+.slidecontainer p span{
+	font-size: 30px;
+	font-weight: bold;
+	color: blue;
+}
