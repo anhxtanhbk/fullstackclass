@@ -10,13 +10,14 @@ body {
 
 #myHomework {
 	background-color: pink;
+	padding: 50px;
 }
 
 #myHomework div {
 	box-sizing: border-box;
 }
 
-#myHomework h1 {
+h1 {
 	color: saddlebrown;
 	margin-bottom: 50px;
 }
@@ -91,4 +92,71 @@ body {
 	font-size: 30px;
 	font-weight: bold;
 	color: blue;
+}
+
+
+/*loading-bar*/
+#loading-bar-container {
+	box-sizing: border-box;
+	background-color: lemonchiffon;
+	padding: 50px;
+}
+
+#loading-bar {
+	width: 60%;
+	height: 30px;
+	box-sizing: border-box;
+	background-color: white;
+	border: 1px solid black;
+	position: relative;
+}
+
+#loading-bar div{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 30px;
+	/*box-sizing: border-box;*/
+	background-color: black;
+	width: 50%;	
+	text-align: center;
+	justify-content: center;
+	color: white;
+	align-items: center;
+}
+
+
+/*color-picker*/
+#color-picker {
+	padding: 50px;
+}
+
+#color-picker label{
+	font-weight: bold;
+	margin-left: 100px;
+}
+
+#color-picker input{
+	box-sizing: border-box;
+	margin-left: 100px;
+	display: block;
+}
+
+#color-picker #color-display {
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	margin-left: 100px;
+	margin-bottom: 30px;
+	border-radius: 50%;
+}
+
+#color-picker #color-code {
+	width: 100px;
+	height: 30px;
+	background-color: white;
+	margin-left: 150px;
+	margin-bottom: 30px;
+	text-align: center;
+	border: 1px solid black;
 }
